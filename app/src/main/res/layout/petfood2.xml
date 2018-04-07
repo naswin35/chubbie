@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/petfood_without3rd" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Dry Food"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

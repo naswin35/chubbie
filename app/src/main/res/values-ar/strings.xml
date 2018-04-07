@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sherazi</string>
+    <string name="mobile_number">رقم الجوال</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="don_t_have_an_account">ماعندي حساب?</string>
+    <string name="sign_up">تسجيل مستخدم جديد</string>
+    <string name="skip_and_shop">عدي و تسوق</string>
+    <string name="forgot_password">نسيت كلمة السر</string>
+    <string name="mobile">الجوال</string>
+    <string name="confirm_password">تاكيد كلمة السر</string>
+    <string name="update_password">تجديد كلمة السر</string>
+    <string name="new_password">كلمة سر جديده</string>
+    <string name="current_password">كلمة السر الحاليه</string>
+    <string name="generate_otp">عطني كلمة السر للاستخدام مره واحده</string>
+    <string name="new_mobile_number">رقم جوال جديد</string>
+    <string name="enter_otp">ادخل كلمة السر للاستخدام مره واحده</string>
+    <string name="password">كلمة السر</string>
+    <string name="update_mobile">تجديد رقم الجوال</string>
+    <string name="regenerate_otp">عطني مره ثانيه كلمة السر للاستخدام مره واحده</string>
+    <string name="new_email">ايميل جديد</string>
+    <string name="update_email">تجديد الايميل</string>
+    <string name="delivery_header">توصيل</string>
+    <string name="select_address">اختار العنوان</string>
+    <string name="add_address">اضف عنوان</string>
+    <string name="brand">ماركه</string>
+    <string name="my_cart">سلتي</string>
+    <string name="Change_email">تغيير الايميل</string>
+    <string name="change_mobile">تغيير رقم الجوال</string>
+
+    <string name="my_account">حسابي</string>
+    <string name="my_orders">طلباتي</string>
+    <string name="notifications">تنبهات</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="payments">الدفع</string>
+    <string name="pet_foods">اكل حيوانات</string>
+    <string name="products">منتجات</string>
+    <string name="name">اسم</string>
+    <string name="email_address">الايميل</string>
+    <string name="already_have_an_account">عندك حساب من قبل؟</string>
+    <string name="address">عنوان</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="size">حجم</string>
+    <string name="quantity">الكمية</string>
+    <string name="sar">ر.س</string>
+    <string name="status">الحاله</string>
+    <string name="ordered_on">تاريخ طلباتي</string>
+    <string name="price">السعر</string>
+    <string name="total_price">الاجمالي :</string>
+    <string name="nutrition_contents">معلومات غذائية.</string>
+
+    <string name="welcome">يا اهلن</string>
+    <string name="change_phone_number">تغيير رقم الجوال</string>
+    <string name="change_email">تغيير الايميل</string>
+    <string name="my_address">عنواني</string>
+    <string name="shipping_details">تفاصيل التوصيل</string>
+    <string name="price_details">تفاصيل الفاتوره</string>
+    <string name="selling_price">القيمة</string>
+    <string name="shipping_fee">خدمة التوصيل</string>
+    <string name="vat">القيمه المضافة</string>
+    <string name="total_amount">الاجمالي</string>
+    <string name="payment_mode">طريقة الدفع :</string>
+    <string name="select_your_gender">جنسك</string>
+    <string name="login_or_register">سجل دخولك ولا مستخدم جديد</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="select_default_language">اختر اللغة</string>
+    <string name="new_order">طلب جديد</string>
+    <string name="change_address">تغيير العنوان</string>
+    <string name="delivery_charges">خدمة التوصيل</string>
+    <string name="amount_payable">المبلغ الاجمالي</string>
+    <string name="continue_button">متابعه</string>
+    <string name="select_google_location">اختار موقعك من قوقل ماب</string>
+    <string name="already_have_an_account_login">عندك حساب من قبل؟ ادخل</string>
+    <string name="change_password">تغيير كلمة السر</string>
+
+
+    <string name="Enter_email">ادخل الايميل</string>
+    <string name="india">+91</string>
+    <string name="soudia">+966</string>
+    <string name="enter_valid_mobile">ادخل رقم الجوال</string>
+    <string name="Enter_mobile_number">ادخل رقم الجوال</string>
+    <string name="Special_characters_not_allowed">Special characters not allowed</string>
+    <string name="Enter_password">ادخل كلمة السر</string>
+    <string name="Password_character_limit_exceeded">تعديت الحد المسموح فيه</string>
+    <string name="Press_once_again_to_exit">Press once again to exit!</string>
+    <string name="Enter_name">ادخل الاسم</string>
+    <string name="Please_enter_valid_email">ادخل الايميل</string>
+    <string name="Password_doesnt_matches">كلمة السر لاتتطابق</string>
+    <string name="Cart_is_empty">السلة فارغه‫!‬</string>
+    <string name="do_you_want_to_remove">هل تريد الحذف؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">حسنا</string>
+    <string name="Please_enter_address">ادخل العنوان</string>
+    <string name="slash">/-</string>
+    <string name="orderid"> ‫-‬ رقم الطلب </string>
+    <string name="Please_enter_your_name">ادخل اسمك</string>
+    <string name="Please_add_an_item_in_cart">Pمن فضلك اختر منتج لاضافته للسلة ‫!‬</string>
+    <string name="Order_Details">Oتفاصيل الطلب</string>
+    <string name="OTP_is_required">OTP مطلوب</string>
+    <string name="Enter_new_password">ادخل كلمة سر جديده</string>
+    <string name="Enter_current_password">Enter current password</string>
+
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="price_high_to_low">السعر من الاعلئ الئ الارخص</string>
+    <string name="price_low_to_high">السعر من الارخص الئ الاعلئ</string>
+    <string name="name_ascenting">الاسم تصاعديا</string>
+    <string name="name_descending">الاسم تنازليا</string>
+    <string name="apply">طبق</string>
+    <string name="Product_out_of_stock">المنتج تحت الشحن</string>
+    <string name="Please_select_an_item">اختر منتج</string>
+    <string name="Please_enter_name">ادخل اسم</string>
+    <string name="only_left">اخر قطعه</string>
+    <string name="product_details">تفاصيل المنتج</string>
+    <string name="please_check_your_internet_connection">تاكد من شبكه الانترنت</string>
+    <string name="product_images">Pصورة المنتج</string>
+
+    <string name="Please_add_address">ادخل العنوان</string>
+    <string name="only">فقط</string>
+    <string name="left">متبقي</string>
+    <string name="update_address">تحديث العنوان</string>
+    <string name="track_order">متابعة الطلب</string>
+    <string name="no_notification_found">لاتوجد لديك اي تنبيهات</string>
+    <string name="no_address_history">لايوجد لديك عنوان‫!‬</string>
+    <string name="no_order_history">لايوجد لديك اي طلبيات</string>
+    <string name="no_products_available">لاتوجد منتجات حاليا</string>
+    <string name="no_brands_available">لاتوجد ماركات حاليا</string>
+    <string name="Set_as_Default">تعيين كافتراضي</string>
+    <string name="Default">افتراضي</string>
+    <string name="set_as_default">تعيين كافتراضي</string>
+    <string name="select">اختار</string>
+    <string name="order_complete">Order Complete</string>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

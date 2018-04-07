@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cgtin.admin.sherazipetshopkimo.HomeActivity.ChangeEmail"
+    tools:showIn="@layout/activity_change_email">
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@android:color/transparent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="14sp"
+               >
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_lock"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/Password"
+                    android:hint="@string/current_password"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#99FFFFFF"
+                    android:textAppearance="@style/AppTheme.MontserratLight"
+                    android:textSize="15sp"
+                    android:background="@android:color/transparent"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardPreventCornerOverlap="true"
+                app:cardCornerRadius="4dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@android:color/transparent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                >
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_mail"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/EmailID"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#99FFFFFF"
+                    android:textAppearance="@style/AppTheme.MontserratLight"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15sp"
+                    android:hint="@string/new_email"
+                    android:background="@android:color/transparent"/>
+
+            </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:textAppearance="@style/AppTheme.MontserratLight"
+                android:background="@drawable/button_boarder"
+                android:gravity="center"
+                android:id="@+id/UpdateEmail"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/update_email"
+                    android:textAppearance="@style/AppTheme.MontserratLight"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_height="40dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/internet"
+        android:background="#F44336"
+        android:layout_alignParentBottom="true"
+        android:layout_height="25dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/please_check_your_internet_connection"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

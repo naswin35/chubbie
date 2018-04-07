@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/fstlayout"
+
+        android:layout_height="wrap_content">
+
+
+        <com.cgtin.admin.sherazipetshopkimo.CommonClasses.RoundRectCornerImageView2
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:id="@+id/animal_pic"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            />
+
+        <!--<com.cgt.admin.sherazipetshopkimo.CommonClasses.RoundRectCornerImageView2-->
+            <!--android:layout_width="175dp"-->
+            <!--android:layout_height="175dp"-->
+        <!---->
+            <!--android:background="#4D000000"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--/>-->
+
+        <ImageView
+            android:layout_width="175dp"
+            android:background="@drawable/gradient_for_pic"
+            android:layout_centerInParent="true"
+            android:layout_height="175dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/animal_name"
+
+            android:textStyle="bold"
+            android:textAppearance="@style/AppTheme.MontserratRegular"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/splash_icon"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/petfood_without3rd_home" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/second_layout"
+    android:visibility="gone"
+
+    android:layout_height="wrap_content">
+
+    <com.cgtin.admin.sherazipetshopkimo.CommonClasses.RoundRectCornerImageView2
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:id="@+id/animal_2"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+       />
+    <ImageView
+        android:layout_width="175dp"
+
+        android:background="@drawable/gradient_for_pic"
+        android:layout_centerInParent="true"
+        android:layout_height="175dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/animal_name_2"
+        android:text="Dog"
+        android:textStyle="bold"
+        android:textAppearance="@style/AppTheme.MontserratRegular"
+        android:textColor="#FFF"
+        android:textSize="23dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bordercut_forhome" />
+    </LinearLayout>
+</RelativeLayout>
+
+</LinearLayout>

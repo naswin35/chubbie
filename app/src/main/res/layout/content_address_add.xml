@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cgtin.admin.sherazipetshopkimo.HomeActivity.AddressAddActivity"
+    tools:showIn="@layout/activity_address_add">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textColorHint="#99FFFFFF"
+
+            android:hint="@string/name"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/contact"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"
+            android:inputType="phone"
+            android:textSize="17sp"
+            android:textColorHint="#99FFFFFF"
+            android:hint="@string/mobile"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center"
+            android:id="@+id/google_click"
+            android:background="@drawable/buttoncurve"
+            android:layout_marginTop="35dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                app:srcCompat="@drawable/ic_google_placepick"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/select_google_location"
+
+                android:id="@+id/NewOrder"
+
+                android:textColor="@android:color/black"
+                android:gravity="center"
+
+                android:layout_height="40dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/address"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:lines="4"
+            android:textSize="17sp"
+            android:textColorHint="#99FFFFFF"
+            android:hint="@string/address"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+<!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:layout_height="wrap_content">-->
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/pin"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:inputType="text"-->
+            <!--android:focusable="false"-->
+            <!--android:textColorHint="#99FFFFFF"-->
+            <!--android:hint="@string/select_google_location"-->
+            <!--android:layout_height="60dp" />-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/google_click"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:descendantFocusability="blocksDescendants"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="60dp"></LinearLayout>&ndash;&gt;-->
+
+
+<!--</RelativeLayout>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="Add Address"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/cntnue_above"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingStart="20dp"
+        android:id="@+id/add_address"
+
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/add_address"
+            android:id="@+id/add_or_update"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_pink"
+            android:layout_height="40dp">
+
+        </TextView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            android:background="#F44336"
+            android:id="@+id/internet"
+            android:layout_height="25dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/please_check_your_internet_connection"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="@android:style/Widget.Material.Light.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar" />
+
+</RelativeLayout>

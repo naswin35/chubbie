@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"  >
+
+
+
+    <ProgressBar
+
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progressBar"
+        android:indeterminate="true"
+
+        />
+
+
+</RelativeLayout>

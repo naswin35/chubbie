@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/fstlayout"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/petfood_without3rd" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/food_name"
+            android:textAppearance="@style/AppTheme.MontserratRegular"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/second_layout"
+        android:visibility="gone"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bordercut" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Dry Food"
+            android:id="@+id/food_name_2"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            android:textAppearance="@style/AppTheme.MontserratRegular" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/click_layout_thrd"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/payment_click_thrd"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/payment_click_with3rd" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/method_name_click_thrd"
+            android:text="Card at Delivery"
+            android:textAppearance="@style/AppTheme.MontserratRegular"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/click_layout"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/payment_click"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/payment_click" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/method_name_click"
+            android:text="Card at Delivery"
+            android:textAppearance="@style/AppTheme.MontserratRegular"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

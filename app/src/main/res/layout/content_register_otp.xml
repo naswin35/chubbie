@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cgtin.admin.sherazipetshopkimo.StartActivities.RegisterOtp"
+    tools:showIn="@layout/activity_register_otp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="25dp"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="match_parent">
+
+
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="40dp"
+                            android:id="@+id/Username"
+                            android:focusable="false"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/transparent"
+                            android:textColorHint="#99FFFFFF"
+                            android:textAppearance="@style/AppTheme.MontserratLight"
+                            android:textSize="15sp"
+                            android:hint="@string/mobile_number"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0DFFFFFF"
+                    android:layout_height="1dp">
+
+                </View>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/otp"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/transparent"
+                        android:textColorHint="#99FFFFFF"
+                        android:textAppearance="@style/AppTheme.MontserratLight"
+
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:hint="@string/enter_otp"
+                        />
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0DFFFFFF"
+                    android:layout_height="1dp">
+
+                </View>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingTop="5dp"
+                    android:id="@+id/regenerate"
+                    android:textAppearance="@style/AppTheme.MontserratLight"
+                    android:gravity="end"
+                    android:textSize="12dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#99FFFFFF"
+                    android:text="@string/regenerate_otp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    >
+
+                <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/name"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:textColorHint="#99FFFFFF"
+                android:textAppearance="@style/AppTheme.MontserratLight"
+                android:inputType="textEmailAddress"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:hint="@string/name"
+                />
+
+                </LinearLayout>
+                <View
+                android:layout_width="match_parent"
+                android:background="#0DFFFFFF"
+                android:layout_height="1dp">
+
+                </View>
+
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                >
+
+                <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/email"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:textColorHint="#99FFFFFF"
+                android:textAppearance="@style/AppTheme.MontserratLight"
+                android:inputType="textEmailAddress"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:hint="@string/email_address"
+                />
+
+                </LinearLayout>
+                <View
+                android:layout_width="match_parent"
+                android:background="#0DFFFFFF"
+                android:layout_height="1dp">
+
+                </View>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="14sp">
+
+
+                <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/Password"
+                android:hint="@string/password"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/AppTheme.MontserratLight"
+                android:gravity="center"
+                android:textColorHint="#99FFFFFF"
+                android:textSize="15sp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword" />
+
+                </LinearLayout>
+
+                <View
+                android:layout_width="match_parent"
+                android:background="#0DFFFFFF"
+                android:layout_height="1dp">
+
+                </View>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="14sp">
+
+
+                <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/ConfirmPassword"
+                android:hint="@string/confirm_password"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/AppTheme.MontserratLight"
+                android:gravity="center"
+                android:textColorHint="#99FFFFFF"
+                android:textSize="15sp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword" />
+
+                </LinearLayout>
+
+                <View
+                android:layout_width="match_parent"
+                android:background="#0DFFFFFF"
+                android:layout_height="1dp">
+
+                </View>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:text="@string/continue_button"
+                    android:textAppearance="@style/AppTheme.MontserratLight"
+                    android:background="@drawable/button_boarder"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textAllCaps="false"
+
+                    android:id="@+id/register"
+                    android:textColor="@android:color/white"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/sign_in"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:weightSum="3"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:background="#fff"
+                        android:layout_weight=".5"
+                        android:layout_height="1dp">
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.1"
+                        android:minHeight="30dp"
+                        android:textAppearance="@style/AppTheme.MontserratLight"
+                        android:gravity="center"
+                        android:id="@+id/forgot"
+                        android:textColor="#99FFFFFF"
+                        android:text="@string/already_have_an_account_login"/>
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:background="#fff"
+                        android:layout_weight=".5"
+                        android:layout_height="1dp">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/internet"
+        android:background="#F44336"
+        android:layout_alignParentBottom="true"
+        android:layout_height="25dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/please_check_your_internet_connection"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

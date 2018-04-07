@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_image"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_bg">
+
+    </ImageView>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/drawer_head"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="1dp">
+
+            </View>
+            <LinearLayout
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:id="@+id/dog"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_sitting_dog" />
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:id="@+id/cat"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_black_cat" />
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:id="@+id/home"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_paw_menu" />
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:id="@+id/cart"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_cart" />
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/my_orders"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_my_orderses" />
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/my_account"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_my_account" />
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/notification"
+                    android:background="@drawable/drawer_buttons"
+                    android:layout_height="50dp">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        app:srcCompat="@drawable/ic_notification" />
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:id="@+id/logout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawer_buttons_pink"
+                android:layout_height="50dp">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_power_signal" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content">
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

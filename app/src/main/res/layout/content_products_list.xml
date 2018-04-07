@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cgtin.admin.sherazipetshopkimo.HomeActivity.ProductsList"
+    tools:showIn="@layout/activity_products_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/no_record"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:background="@drawable/ic_poduct_list"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/no_products_available"
+            />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/PostReq_Recy"
+        android:clipToPadding="false"
+        android:clickable="false"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:id="@+id/view_more"
+
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="View more"
+            android:textAppearance="@style/AppTheme.MyriadRegular"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:background="@drawable/buttoncurve"
+            android:layout_height="35dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/internet"
+        android:background="#F44336"
+        android:layout_alignParentBottom="true"
+        android:layout_height="25dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/please_check_your_internet_connection"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgas"
+    tools:context="com.cgtin.admin.sherazipetshopkimo.HomeActivity.ProductDetails">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#11163b"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:lines="1"
+            android:textAppearance="@style/AppTheme.ralewayregular"
+            android:layout_gravity="start"
+            android:id="@+id/toolbar_title"
+
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <include layout="@layout/content_product_details" />
+
+</android.support.design.widget.CoordinatorLayout>

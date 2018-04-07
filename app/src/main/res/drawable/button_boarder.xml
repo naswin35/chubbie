@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:autoMirrored="true" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="10dp"/>
+            <solid android:color="@android:color/transparent">
+
+            </solid>
+
+        </shape>
+    </item>
+    <item android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp"/>
+            <gradient
+                android:angle="360"
+                android:endColor="#39e6ef"
+
+                android:startColor="#0cb1e5"
+                android:type="linear" />
+        </shape>
+
+    </item>
+
+</layer-list>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemLayout"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="2"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.9"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:id="@+id/notify_title"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                app:srcCompat="@drawable/ic_circle"
+                android:layout_gravity="center"
+                android:id="@+id/notify_status"
+                android:visibility="gone"
+                android:layout_marginStart="10dp"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:lineSpacingExtra="3dp"
+            android:id="@+id/notify_description"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/notify_date"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

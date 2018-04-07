@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "98915584326",
+    "firebase_url": "https://sheraziapp.firebaseio.com",
+    "project_id": "sheraziapp",
+    "storage_bucket": "sheraziapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98915584326:android:69667ae59eac5567",
+        "android_client_info": {
+          "package_name": "com.cgtin.admin.sherazipetshopkimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98915584326-ts3fs0kgor6eequbcgvjec7gnpicri8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHyudZPQWuPIfDZIxPixJd22t5T9auzfM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
